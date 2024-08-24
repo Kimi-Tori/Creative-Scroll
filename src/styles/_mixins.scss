@@ -1,0 +1,5 @@
+@mixin up($value, $prop: min-width) {
+    @media only screen and (#{$prop}: #{$value}) {
+      @content
+    }
+};
