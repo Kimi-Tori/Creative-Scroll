@@ -1,4 +1,4 @@
-# gsap-scroller
+# Creative-Scroll
 
 ## Project setup
 ```
