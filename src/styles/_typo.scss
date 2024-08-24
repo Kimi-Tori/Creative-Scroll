@@ -1,0 +1,48 @@
+.header-title {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+
+    @include up($sm) {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    @include up($md) {
+        font-size: 114px;
+        line-height: 114px;
+    }
+
+    @include up($lg) {
+        font-size: 200px;
+        line-height: 200px;
+    }
+}
+
+.subtitle {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+
+    @include up($md) {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+.text {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+
+    @include up($md) {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

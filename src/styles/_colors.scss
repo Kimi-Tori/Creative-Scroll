@@ -1,8 +1,14 @@
 .color {
-    &__white {
+    &-white {
         color: $white;
     }
-    &__black {
+    &-black {
         color: $black;
+    }
+    &-header {
+        color: $color-header;
+    }
+    &-text {
+        color: $color-text;
     }
 }

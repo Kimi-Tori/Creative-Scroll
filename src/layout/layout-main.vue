@@ -26,5 +26,7 @@
   
   <style lang="scss">
   .layout-main {
+    background-image: url(@/assets/bg.jpg);
+    background-repeat: repeat;
   }
   </style>
